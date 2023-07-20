@@ -1,0 +1,199 @@
+/* Auth By Rajshekhar Singh */
+
+:root {
+    --bgColor: #EFFBF8;
+    --text-color: #55527C;
+    --dark-color: #130F49;
+    --yellow-color: #FF972D;
+    --blue-color: #A5A6FF;
+    --font-size: 16px;
+    --border-shadow: 0px 15px 30px rgba(0, 0, 0, 0.10);
+    
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    line-height: 30px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.main-section {
+position: relative;
+    display: flex;
+    
+}
+
+#left-side-bar {
+    background-color: #fff;
+    height: 100vh;
+    width: 20%;
+    border-right: 1px solid #0000001a;
+
+}
+
+.menu {
+    position: fixed;
+    display: grid;
+
+    height: 100vh;
+    width: 20%; 
+    text-align: center;
+    
+}
+
+.brand {
+    position: relative;
+    top: 20px;
+}
+
+.brand img {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    border: 2px solid var(--blue-color);
+}
+
+.brand h6 {
+    font-size: var(--font-size);
+    color: var(--dark-color);
+    margin-top: 10px;
+}
+
+#left-side-bar .menu .navbar ul li {
+    list-style-type: circle;
+    line-height: 38px;
+
+}
+
+#left-side-bar .menu .navbar ul li a {
+    color: var(--text-color);
+    font-size: var(--font-size);
+    text-decoration: none;
+}
+#left-side-bar .menu .navbar ul li a:hover{
+    color:var(--blue-color);
+    transition: 1s;
+    
+}
+.footer {
+    margin-top: 50px;
+}
+
+.footer ul {
+    display: flex;
+    justify-content: center;
+}
+
+.footer ul li {
+    list-style-type: none;
+    width: 30px;
+    height: 30px;
+    background-color: rgba(19, 15, 73, 0.05);
+    border-radius: 50%;
+    line-height: 30px;
+    margin: 5px;
+    display: inline-block;
+}
+
+.footer ul li a {
+    color: var(--dark-color);
+}
+
+.footer p {
+    font-size: var(--font-size);
+    color: var(--text-color);
+    line-height: 25px;
+    margin-top: 10px;
+}
+
+#right-side-bar{
+width: 80%;
+}
+.hero_sec{
+    background-color: #EFFBF8;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    padding-top: 80px;
+}
+
+.hero_img img{
+    text-align: center;
+    width: 100%;
+    height: 500px;
+}
+.hero_title h1{
+font-size: 50px;
+color: var(--dark-color);
+line-height: 65px;
+}
+.hero_title p{
+    margin-top: 30px;
+    color: var(--text-color)
+}
+.hero_title .hero_title_h1{
+color: var(--blue-color);
+font-weight: 700;
+}
+.hero_title .hero_title_span{
+    color: var(--blue-color);
+}
+.btn_box {
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.btn_box .btn{
+background-color: var(--dark-color);
+padding: 15px 40px;
+border:1px solid var(--dark-color);
+border-radius: 3px;
+color:#fff;
+font-size: 16px;
+font-weight: 500;
+margin-right: 20px;
+transition: 1s;
+}
+.btn_box .btn:hover{
+    background-color: var(--bgColor) !important;
+    color: var(--text-color) !important;
+    transition: 0s !important;
+}
+.btn_box .btn_1:hover{
+    background-color: var(--dark-color) !important;
+    color:#fff !important;
+    transition: 0s !important;
+}
+.btn_1{
+    background-color: var(--bgColor) !important;
+    color: var(--text-color) !important;
+    transition: 1s;
+}
+.details{
+    border-left: 4px solid var(--yellow-color);
+    padding-left: 10px;
+}
+.details li{
+    list-style-type: none;
+    }
+.details li a{
+    color: var(--text-color);
+    font-size:15px;
+   text-decoration: none !important;
+}
+.details li a:hover{
+    color: var(--yellow-color);
+    transition: 1s;
+}
+
+
